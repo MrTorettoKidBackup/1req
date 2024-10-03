@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>🤖 My Name :</b> {client.me.mention} \n<b>📝 Language :</b> <a href='https://python.org'>Python 3</a> \n<b>📚 Library :</b> <a href='https://pyrogram.org'>Pyrogram {__version__}</a> \n<b>🚀 Server :</b> <a href='https://heroku.com'>Heroku</a> \n<b>📢 Channel :</b> <a href='https://t.me/MadflixBotz'>Madflix Botz</a> \n<b>🧑‍💻 Developer :</b> <a href='tg://user?id={OWNER_ID}'>This Person</a>",
+            text = f"<b>🧑‍💻 Developer :</b> <a href='tg://user?id={OWNER_ID}'>This Person</a><b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup([
                 [InlineKeyboardButton("🏡 Home", callback_data = "home"),
@@ -44,9 +44,6 @@ async def cb_handler(client: Bot, query: CallbackQuery):
 
 
 
-
-# Jishu Developer 
 # Don't Remove Credit 🥺
-# Telegram Channel @Madflix_Bots
-# Backup Channel @JishuBotz
-# Developer @JishuDeveloper
+# Telegram Channel @AxomBotz
+# Developer @imakashrabha
