@@ -17,7 +17,7 @@ DB_NAME = os.environ.get("DB_NAME", "Madflix-Files")
 
 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002278495961"))
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002071628178"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002214447851"))
 
 
 FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "10")) # auto delete in seconds
