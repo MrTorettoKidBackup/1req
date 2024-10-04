@@ -128,7 +128,7 @@ async def start_command(client: Client, message: Message):
 async def not_joined(client: Client, message: Message):
     buttons = [
         [
-            InlineKeyboardButton("Join Main Channel", url="https://t.me/+VMgXScSMqeNkNjRl") 
+            InlineKeyboardButton("Join Main Channel", url="https://t.me/+jd2mUlHkq1lmOGQ1") 
      ],[
             InlineKeyboardButton(text="Join Backup Channel", url=client.invitelink)
         ]
