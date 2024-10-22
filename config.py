@@ -16,7 +16,7 @@ JOIN_REQ_DB = os.environ.get("JOIN_REQ_DB", DB_URL)
 DB_NAME = os.environ.get("DB_NAME", "Madflix-Files")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002278495961"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002206992115"))
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002071628178"))
 
 
