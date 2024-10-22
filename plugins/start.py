@@ -128,7 +128,9 @@ async def start_command(client: Client, message: Message):
 async def not_joined(client: Client, message: Message):
     buttons = [
         [
-            InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=client.invitelink)
+            InlineKeyboardButton("ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url="https://t.me/allmovieshub_official")
+     ],[
+            InlineKeyboardButton(text="ᴊᴏɪɴ ʙᴀᴄᴋᴜᴘ ᴄʜᴀɴɴᴇʟ", url=client.invitelink)                  
         ]
     ]
     try:
@@ -228,14 +230,5 @@ async def delete_files(messages, client, k):
         except Exception as e:
             print(f"The attempt to delete the media {msg.id} was unsuccessful: {e}")
     # await client.send_message(messages[0].chat.id, "Your Video / File Is Successfully Deleted ✅")
-    await k.edit_text("<b> Your Media Is Successfully Deleted ✅ </b>")
+    await k.edit_text("<b> ʏᴏᴜʀ ᴍᴇᴅɪᴀ ᴅᴇʟᴇᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ.  </b>")
     
-
-
-
-
-# Jishu Developer 
-# Don't Remove Credit 🥺
-# Telegram Channel @Madflix_Bots
-# Backup Channel @JishuBotz
-# Developer @JishuDeveloper
