@@ -13,11 +13,11 @@ API_HASH = os.environ.get("API_HASH", "822cb334ca4527a134aae97f9fe44fd6")
 OWNER_ID = int(os.environ.get("OWNER_ID", "6987158459"))
 DB_URL = os.environ.get("DB_URL", "mongodb+srv://akashrabha2005:781120@cluster0.pv6yd2f.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 JOIN_REQ_DB = os.environ.get("JOIN_REQ_DB", DB_URL)
-DB_NAME = os.environ.get("DB_NAME", "Madflix-Files")
+DB_NAME = os.environ.get("DB_NAME", "AxomBotz")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002206992115"))
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002071628178"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", ""))
 
 
 FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "300")) # auto delete in seconds
@@ -96,8 +96,3 @@ def LOGGER(name: str) -> logging.Logger:
 
 
 
-# Jishu Developer 
-# Don't Remove Credit 🥺
-# Telegram Channel @Madflix_Bots
-# Backup Channel @JishuBotz
-# Developer @JishuDeveloper
