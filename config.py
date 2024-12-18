@@ -16,11 +16,11 @@ JOIN_REQ_DB = os.environ.get("JOIN_REQ_DB", DB_URL)
 DB_NAME = os.environ.get("DB_NAME", "AxomBotz")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002468593533"))
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002071628178"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", ""))
 
 
-FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "300")) # auto delete in seconds
+FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "600")) # auto delete in seconds
 
 
 PORT = os.environ.get("PORT", "8080")
@@ -30,7 +30,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 try:
     ADMINS=[6987158459]
-    for x in (os.environ.get("ADMINS", "6987158459").split()):
+    for x in (os.environ.get("ADMINS", "").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
